@@ -9,7 +9,7 @@ const BgImage = () => {
     return (
         <div className="relative h-screen">
 
-            {/* Background Image */}
+      
             <div className="absolute top-0 left-0 w-full h-full -z-10">
                 <Image
                     src={background} // Path ke gambar yang Anda ingin gunakan
@@ -20,7 +20,7 @@ const BgImage = () => {
                 />
             </div>
 
-            {/* Content on top of the background */}
+  
             <div className="p-28 h-full max-w-[1000px]">
                 <div className="text-left text-white">
                     <h1 className="text-4xl font-bold">Ingin Kuliah di Kampus Negeri
